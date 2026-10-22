@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoAGt – Execution 2026-10-22 11:29:08</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #555555;
+      --border: #e0e0e0;
+      --link: #0969da;
+      --link-hover: #054da7;
+      --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0 0 6px 0;
+      letter-spacing: -0.01em;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin: 0 0 28px 0;
+    }
+
+    /* Execution Summary Table */
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin: 28px 0 12px 0;
+    }
+
+    table.metadata {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+
+    table.metadata td {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    table.metadata td:first-child {
+      color: var(--text-muted);
+      width: 40%;
+      padding-left: 0;
+    }
+
+    table.metadata td:last-child {
+      font-family: var(--mono);
+      font-size: 13px;
+      padding-right: 0;
+    }
+
+    /* Resource Links List */
+    .link-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px 0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .link-list li {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .link-list li:last-child {
+      border-bottom: none;
+    }
+
+    .link-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .link-item:hover {
+      background: #f6f8fa;
+    }
+
+    .link-title {
+      font-weight: 600;
+      color: var(--link);
+      font-size: 15px;
+    }
+
+    .link-item:hover .link-title {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .link-file {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .link-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>RoAGt Execution Results</h1>
+    <p class="subtitle">Execution timestamp: 2026-10-22 11:29:08</p>
+
+    <div class="section-title">Summary</div>
+    <table class="metadata">
+      <tbody>
+        <tr>
+          <td>Valid Algorithms</td>
+          <td>278</td>
+        </tr>
+        <tr>
+          <td>Activation Levels</td>
+          <td>18 (88 &ndash; 105)</td>
+        </tr>
+        <tr>
+          <td>Goals Simulated</td>
+          <td>20 / 20</td>
+        </tr>
+        <tr>
+          <td>Execution Duration</td>
+          <td>25.16340 s</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-title">Results &amp; Visualizers</div>
+    <ul class="link-list">
+      <li>
+        <a class="link-item" href="https://oussamanahnah.github.io/first_algos_with_obstacle/algorithms.html" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="link-title">Algorithms List</div>
+            <div class="link-desc">Index of all 278 generated algorithm files with simulator links.</div>
+          </div>
+          <span class="link-file">algorithms.html</span>
+        </a>
+      </li>
+      <li>
+        <a class="link-item" href="https://oussamanahnah.github.io/first_algos_with_obstacle/global_viewer.html" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="link-title">Global Viewer</div>
+            <div class="link-desc">Multi-algorithm trajectory visualizer and step trace inspection.</div>
+          </div>
+          <span class="link-file">global_viewer.html</span>
+        </a>
+      </li>
+      <li>
+        <a class="link-item" href="https://oussamanahnah.github.io/first_algos_with_obstacle/global_classification.html" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="link-title">Global Classification</div>
+            <div class="link-desc">Classification of valid paths, clusters, and rule sets.</div>
+          </div>
+          <span class="link-file">global_classification.html</span>
+        </a>
+      </li>
+      <li>
+        <a class="link-item" href="https://oussamanahnah.github.io/first_algos_with_obstacle/timestamp.log" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="link-title">Execution Timestamp Log</div>
+            <div class="link-desc">Chronological log of generation phases and benchmark timings.</div>
+          </div>
+          <span class="link-file">timestamp.log</span>
+        </a>
+      </li>
+      <li>
+        <a class="link-item" href="https://oussamanahnah.github.io/first_algos_with_obstacle/rules_viewer.html" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="link-title">Rules Viewer</div>
+            <div class="link-desc">Generated rule inspection interface.</div>
+          </div>
+          <span class="link-file">rules_viewer.html</span>
+        </a>
+      </li>
+      <li>
+        <a class="link-item" href="https://oussamanahnah.github.io/first_algos_with_obstacle/parallel_rules_viewer.html" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="link-title">Parallel Rules Viewer</div>
+            <div class="link-desc">Parallel rule set validation and inspection.</div>
+          </div>
+          <span class="link-file">parallel_rules_viewer.html</span>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      RoAGt &middot; Grid Exploration with Obstacles
+    </footer>
+  </main>
+</body>
+</html>
