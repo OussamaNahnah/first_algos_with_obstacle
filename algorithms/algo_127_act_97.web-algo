@@ -1,0 +1,332 @@
+# 0,7,0,27,36,0,16,0,2,0,4,0,12,1,19,1,2,15,2,1
+****** OPTIONS ******
+version: 1
+walls:
+  - - 0
+    - 0
+    - 0
+  - - 11
+    - 11
+    - 2
+chirality: true
+visibilityRange: 1
+dimension: 2
+colors:
+  F: 255
+  L: 16711680
+  R: 32768
+  O: 16753920
+
+
+****** INITIAL CONFIGURATIONS ******
+grid9x9:infinite-grid[11,11,1],0
+...........
+.WWWWWWWWW.
+.W.......W.
+.W.......W.
+.W.......W.
+.W.FLO...W.
+.W.......W.
+.W.......W.
+.W.......W.
+.WWWWWWWWW.
+...........
+
+****** RULES ******
+@alias X {.,W,O,T,F,L,R}
+
+
+# New rule: 52
+ 
+ F 
+.F. -> left, L
+ . 
+
+# New rule: 74
+ 
+ F 
+.FW -> left, L
+ . 
+
+# New rule: 83
+ 
+ F 
+WF. -> right, R
+ . 
+
+# New rule: 94
+ 
+ F 
+.FW -> left, R
+ W 
+
+# New rule: 101
+ 
+ F 
+WF. -> right, L
+ W 
+
+# New rule: 120
+ 
+ F 
+.FO -> front, L
+ . 
+
+# New rule: 147
+ 
+ L 
+.F. -> front, F
+ . 
+
+# New rule: 161
+ 
+ L 
+.F. -> front, F
+ W 
+
+# New rule: 172
+ 
+ L 
+.FW -> front, F
+ . 
+
+# New rule: 183
+ 
+ L 
+WF. -> front, F
+ . 
+
+# New rule: 194
+ 
+ L 
+.FW -> front, F
+ W 
+
+# New rule: 210
+ 
+ L 
+OF. -> front, F
+ . 
+
+# New rule: 224
+ 
+ L 
+.FO -> front, F
+ . 
+
+# New rule: 252
+ 
+ R 
+.F. -> front, F
+ . 
+
+# New rule: 277
+ 
+ R 
+.FW -> front, F
+ . 
+
+# New rule: 288
+ 
+ R 
+WF. -> front, F
+ . 
+
+# New rule: 308
+ 
+ R 
+WF. -> front, L
+ W 
+
+# New rule: 315
+ 
+ R 
+OF. -> front, F
+ . 
+
+# New rule: 329
+ 
+ R 
+.FO -> front, F
+ . 
+
+# New rule: 364
+ 
+ F 
+.L. -> back, L
+ . 
+
+# New rule: 374
+ 
+ F 
+.L. -> right, F
+ W 
+
+# New rule: 386
+ 
+ F 
+.LW -> back, L
+ . 
+
+# New rule: 400
+ 
+ F 
+WL. -> back, L
+ . 
+
+# New rule: 407
+ 
+ F 
+.LW -> left, F
+ W 
+
+# New rule: 415
+ 
+ F 
+WL. -> right, F
+ W 
+
+# New rule: 427
+ 
+ F 
+OL. -> back, L
+ . 
+
+# New rule: 441
+ 
+ F 
+.LO -> back, L
+ . 
+
+# New rule: 451
+ 
+ F 
+.L. -> right, F
+ O 
+
+# New rule: 462
+ 
+ L 
+.L. -> front, F
+ . 
+
+# New rule: 481
+ 
+ L 
+.L. -> right, R
+ W 
+
+# New rule: 491
+ 
+ L 
+.LW -> back, L
+ . 
+
+# New rule: 517
+ 
+ L 
+WL. -> front, F
+ W 
+
+# New rule: 533
+ 
+ L 
+OL. -> back, R
+ . 
+
+# New rule: 578
+ 
+ R 
+.L. -> left, R
+ . 
+
+# New rule: 604
+ 
+ R 
+WL. -> front, L
+ . 
+
+# New rule: 680
+ 
+ F 
+.R. -> back, R
+ . 
+
+# New rule: 691
+ 
+ F 
+.R. -> right, R
+ W 
+
+# New rule: 702
+ 
+ F 
+.RW -> back, R
+ . 
+
+# New rule: 712
+ 
+ F 
+WR. -> right, L
+ . 
+
+# New rule: 724
+ 
+ F 
+.RW -> left, R
+ W 
+
+# New rule: 731
+ 
+ F 
+WR. -> right, L
+ W 
+
+# New rule: 743
+ 
+ F 
+OR. -> back, R
+ . 
+
+# New rule: 757
+ 
+ F 
+.RO -> back, R
+ . 
+
+# New rule: 766
+ 
+ F 
+.R. -> right, F
+ O 
+
+# New rule: 777
+ 
+ L 
+.R. -> front, F
+ . 
+
+# New rule: 807
+ 
+ L 
+.RW -> back, R
+ . 
+
+# New rule: 828
+ 
+ L 
+.RW -> left, L
+ W 
+
+# New rule: 882
+ 
+ R 
+.R. -> front, F
+ . 
+
+# New rule: 904
+ 
+ R 
+.R. -> left, R
+ W 
+
