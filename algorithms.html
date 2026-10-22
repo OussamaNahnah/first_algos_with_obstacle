@@ -306,6 +306,9 @@
   </main>
 
   <script>
+    const viewerUrl = "https://robots.app.bramas.fr/MAC2023/?";
+    const githubPagesUrl = "https://oussamanahnah.github.io/first_algos_with_obstacle/";
+    const baseUrl = viewerUrl + githubPagesUrl;
     const files = [
   {
     "name": "algo_1_act_88.web-algo",
@@ -2045,7 +2048,7 @@
           const item = document.createElement("li");
           const link = document.createElement("a");
           link.className = "file-item";
-          link.href = file.url;
+          link.href = baseUrl + file.url + "&";
           link.target = "_blank";
           link.rel = "noopener noreferrer";
 
